@@ -50,3 +50,10 @@ If I drag a larger cell before a small cell, the small cell is going to take all
 This is the same layout issue, but with a larger cell being dragged.
 
 ![](screenshots/reorder-dynamic-size-error-04.gif)
+
+
+## Enable/disable code features
+
+In the file ```TestCollectionViewLayout.m``` you can enable and disable the dynamic cell size with the ```#define USE_DYNAMIC_SIZE``` . Just set it to 0 or 1.
+
+In the file ```NSLogDebug.h```you can enable and disable the NSLog debugs I made with the ```#define DEBUG_TO_TERMINAL``` . Just set it to 0 or 1.
